@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: burlywood;
+}
+
+@media (max-width: 300px){
+    .container {
+        background-color: #0779AB;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .square-bg {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        z-index: 2;
+    }
+
+    /* .square-top-bottom {
+        background-color: rgba(255, 255, 255, 0.2);
+        left: 50%;
+        bottom: 0;
+    } */
+
+    .sq-left-top {
+        background-color: rgba(255, 255, 255, 1);
+        top: 0;
+        left: 0;
+    }
+
+    .sq-right-top {
+        background-color: rgba(255, 255, 255, 0.7);
+        right: 0;
+        top: 0;
+    }
+
+    .sq-left-bottom {
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 0;
+        bottom: 0;
+    }
+
+    .sq-right-bottom {
+        background-color: rgba(255, 255, 255, 1);
+        right: 0;
+        bottom: 0;
+    }
+
+    .rot-sq-left {
+        position: fixed;
+        transform: translateX(-50%) rotate(45deg) ;
+    }
+
+    #sq2.rot-sq-left {
+        position: fixed;
+        transform: translate(-75%) rotate(45deg);
+    }
+
+    .rot-sq-right {
+        position: fixed;
+        transform: translateX(50%) rotate(45deg) ;
+    }
+
+    #sq5.rot-sq-right {
+        position: fixed;
+        transform: translate(75%) rotate(45deg);
+    }
+}
+
+@media (min-width: 301px) and (max-width: 757px){
+
+    /* main container with all elements */
+    .container {
+        background-color: #0779AB;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+    }
+
+    .square-bg {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        z-index: 50;
+    }
+
+    .sq-left-top {
+        background-color: rgba(255, 255, 255, 1);
+        top: 0;
+        left: 0;
+    }
+
+    .sq-right-top {
+        background-color: rgba(255, 255, 255, 0.7);
+        right: 0;
+        top: 0;
+    }
+
+    .sq-left-bottom {
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 0;
+        bottom: 0;
+    }
+
+    .sq-right-bottom {
+        background-color: rgba(255, 255, 255, 1);
+        right: 0;
+        bottom: 0;
+    }
+
+    .rot-sq-left {
+        position: fixed;
+        transform: translateX(-50%) rotate(45deg) ;
+    }
+
+    #sq2.rot-sq-left {
+        position: fixed;
+        transform: translate(-75%) rotate(45deg);
+    }
+
+    .rot-sq-right {
+        position: fixed;
+        transform: translateX(50%) rotate(45deg) ;
+    }
+
+    #sq5.rot-sq-right {
+        position: fixed;
+        transform: translate(75%) rotate(45deg);
+    }
+
+    .main {
+        z-index: 200;
+    }
+
+    .home-class {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* a {
+        width: 100%;
+        height: 100%;
+    } */
+
+    a img {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .logo-button {
+        background-color: #DA4133;
+        
+    }
+
+    #logo {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg) ;
+    }
+
+
+
+
+
+
+}
